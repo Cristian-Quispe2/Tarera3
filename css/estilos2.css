@@ -1,0 +1,73 @@
+.Padre {
+    background-color: yellow;
+    padding: 5px;
+    font-size: 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "caja1 caja1 caja1 caja1 caja1 caja1"
+                         "caja2 caja2 caja3 caja3 caja4 caja4"
+                         "caja2 caja2 caja3 caja3 caja4 caja4"
+                         "caja5 caja5 caja5 caja5 caja6 caja6"
+                         "caja7 caja8 caja9 caja10 caja6 caja6"
+                         "caja7 caja8 caja9 caja10 caja6 caja6";
+}
+
+.Padre .caja1 {
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja1;
+}
+
+.Padre .caja2 {
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja2;
+}
+
+.Padre .caja3 {
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja3;
+}
+
+.Padre .caja4 {
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja4;
+}
+
+.Padre .caja5 {
+    background-color: red;
+    margin: 5px;
+    grid-area: caja5;
+}
+
+.Padre .caja6 {
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja6;
+}
+
+.Padre .caja7 {
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja7;
+}
+
+.Padre .caja8 {
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja8;
+}
+
+.Padre .caja9 {
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja9;
+}
+
+.Padre .caja10 {
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja10;
+}
